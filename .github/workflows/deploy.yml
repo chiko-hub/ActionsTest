@@ -16,3 +16,6 @@ jobs:
           echo "Good"  #실행할 명령어
           echo "Morning"
 
+      - name: Github Actions Secret 변수 사용
+        run: echo ${{ secrets.SECRETVAR }}
+
